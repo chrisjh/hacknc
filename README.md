@@ -1,3 +1,3 @@
 # hacknc
 
-### A website for the HackNC.
+### A website for HackNC.
