@@ -1,7 +1,14 @@
 body {
-  font: 100% "Source Sans Pro", sans-serif;
+  font-family: 100% "Source Sans Pro", sans-serif;
   color: black;
   background-color: #fafafa;
+}
+
+a,
+p,
+h2,
+h3 {
+  font: 100% "Source Sans Pro", sans-serif;
 }
 
 html {
@@ -49,13 +56,13 @@ section {
   background-color: none;
   background: 0;
   color: black;
-  border-bottom: 2px solid #ff4700;
+  border-bottom: 2px solid #3d015c;
   box-shadow: none !important;
 }
 
 .navbar {
   background-color: rgba(255, 255, 255, 0.97);
-  border-top: 4px solid #ff4700;
+  border-top: 4px solid #3d015c;
   box-shadow: 0px 1px 0.5em #DBDBDB;
 }
 
@@ -71,7 +78,7 @@ section {
 }
 
 .nav > li > a:hover {
-  color: #ff4700;
+  color: #3d015c;
 }
 
 .navbar-header {
@@ -79,7 +86,7 @@ section {
 }
 
 .navbar-toggle {
-  border: 1px solid #ff4700;
+  border: 1px solid #3d015c;
 }
 
 h1,
@@ -95,15 +102,27 @@ h1 {
   margin-bottom: 50px;
 }
 
+h2 {
+  color: black;
+  line-height: 1.3;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 h3 {
   color: black;
   line-height: 1.25em;
-  font-size: 2.4em;
+  font-size: 1.5em;
 }
 
 p {
   font-size: 1em;
   text-align: justify;
+}
+
+.about p {
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 a.anchor {
@@ -113,8 +132,8 @@ a.anchor {
   visibility: hidden;
 }
 
-.number {
-  color: #ff4700;
+.num {
+  color: #6f338e;
   font-size: 2em;
 }
 
@@ -135,29 +154,41 @@ a.anchor {
   text-align: justify;
 }
 
+.faq h3 {
+  font-weight: bold;
+}
+
 .btn-primary {
-  background-color: #ff4700;
+  background-color: #3d015c;
   color: white;
   border: none;
 }
 
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #d72500;
+  background-color: #6f338e;
   color: white;
   border: none;
 }
 
+.btn-lg-text {
+  font-size: 2.5em;
+}
+
+.bigbtn {
+  margin-top: 10px;
+}
+
 #headline {
   height: 400px;
-  background-color: #cccccc;
+  background-color: #3d015c;
 }
 
 #headline h1 {
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #272742;
   margin-top: 150px;
-  font-size: 5.5em;
+  font-size: 5.25em;
 }
 
 .footer {
@@ -167,4 +198,16 @@ a.anchor {
   color: #777777;
   text-align: center;
   border-top: 1px solid #e5e5e5;
+}
+
+.anchor {
+  margin-bottom: 50px;
+}
+
+a {
+  color: #6f338e;
+}
+
+a:hover {
+  color: #3d015c;
 }

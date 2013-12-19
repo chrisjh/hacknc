@@ -10,8 +10,10 @@ $white: #FFFFFF;
 $dark-gray: #333333;
 $light-gray: #CCCCCC;
 
-$primary: #ff4700;
-$primary-alt: #D72500;
+//$primary: #ff4700;
+$primary: #3D015C;
+//$primary-alt: #D72500;
+$primary-alt: #6F338E;
 $header: #CCCCCC;
 $background: #FAFAFA;
 
@@ -21,9 +23,12 @@ $nav-hover: $primary;
 
 
 body {
-	font: 100% $font-stack;
+	font-family: 100% $font-stack;
 	color: $main-text;
     background-color: $background;
+}
+a, p, h2, h3, {
+    font: 100% $font-stack;
 }
 html {
     font-size: 100%;
@@ -93,14 +98,24 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+h2 {
+    color: black;
+    line-height: 1.3;
+    font-size: 2em;
+    font-weight: bold;
+}
 h3 {
     color: black;
     line-height: 1.25em;
-    font-size: 2.4em;
+    font-size: 1.5em;
 }
 p {
     font-size: 1em;
     text-align: justify;
+}
+.about p {
+    font-size: 1.25em;
+    font-weight: bold;
 }
 a.anchor {
     display: block;
@@ -108,8 +123,8 @@ a.anchor {
     top: -250px;
     visibility: hidden;
 }
-.number {
-    color: $primary;
+.num {
+    color: $primary-alt;
     font-size: 2em;
 }
 .panel-body h3{
@@ -125,6 +140,9 @@ a.anchor {
 .faq p {
     text-align: justify;
 }
+.faq h3 {
+    font-weight: bold;
+}
 .btn-primary {
     background-color: $primary;
     color: white;
@@ -135,15 +153,21 @@ a.anchor {
     color: white;
     border: none;
 }
+.btn-lg-text {
+    font-size: 2.5em;
+}
+.bigbtn {
+    margin-top: 10px;
+}
 #headline {
 height:400px;
-background-color: $header;
+background-color: $primary;
 }
 #headline h1 {
     color: #FFFFFF;
     text-shadow: 1px 1px 2px #272742;
     margin-top: 150px;
-    font-size: 5.5em;
+    font-size: 5.25em;
 }
 .footer {
     padding-top: 40px;
@@ -152,4 +176,13 @@ background-color: $header;
     color: rgb(119, 119, 119);
     text-align: center;
     border-top: 1px solid rgb(229, 229, 229);
+}
+.anchor {
+    margin-bottom: 50px;
+}
+a {
+    color: $primary-alt;
+}
+a:hover {
+    color: $primary;
 }

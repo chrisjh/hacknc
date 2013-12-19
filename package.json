@@ -1,6 +1,6 @@
 {
   "name": "hacknc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Website for HackNC",
   "main": "index.js",
   "scripts": {
