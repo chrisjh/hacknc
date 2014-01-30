@@ -7197,7 +7197,7 @@ html {
 }
 
 .navimg {
-  width: 70px;
+  width: 74px;
   height: 90px;
 }
 
@@ -7335,6 +7335,10 @@ a.anchor {
 
 .sponsor p {
   text-align: center;
+}
+
+.sponsor img {
+  margin: 10px 0;
 }
 
 .faq p {
