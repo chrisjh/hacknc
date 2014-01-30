@@ -108,6 +108,11 @@ module.exports = function(grunt) {
                     src: ['js/build/production.min.js'],
                     dest: 'dist/',
                     filter: 'isFile'
+                }, {
+                    expand: true,
+                    src: ['images/**/*'],
+                    dest: 'dist/',
+                    filter: 'isFile'
                 }]
             }
         },
@@ -154,7 +159,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-bower-task');
 
     // Default Task is basically a rebuild
-    grunt.registerTask('default', ['bower', 'concat', 'uglify', 'sass', 'autoprefixer', 'imagemin', 'cssmin', 'htmlmin', 'copy']);
+    grunt.registerTask('default', ['bower', 'concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'htmlmin', 'copy']);
 
     grunt.registerTask('dev', ['connect', 'watch']);
 
