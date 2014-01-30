@@ -7190,10 +7190,15 @@ html {
 }
 
 .topimg {
-  width: 312px;
-  height: 404px;
+  max-height: 404px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (max-width:560px) {
+  .topimg {
+    margin-top: 175px;
+  }
 }
 
 .navimg {
