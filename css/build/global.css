@@ -52,6 +52,10 @@ section {
   padding-right: 0px;
 }
 
+#tagline {
+  z-index: 22;
+}
+
 #nav.affix {
   position: fixed;
   top: 0;
@@ -149,6 +153,10 @@ a.anchor {
   font-size: 1.25em;
 }
 
+.panel {
+  margin-top: 10px;
+}
+
 .about p {
   text-align: center;
   font-size: 1.5em;
@@ -223,4 +231,25 @@ a {
 
 a:hover {
   color: #3d015c;
+}
+
+#emc {
+  margin-top: 20px;
+}
+
+#google {
+  margin-top: 35px;
+}
+
+#redventures {
+  margin-top: 40px;
+}
+
+@media (max-width: 560px) {
+  #redventures {
+    margin-top: 10px;
+  }
+}
+#cc {
+  margin-top: -10px;
 }
