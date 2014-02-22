@@ -113,7 +113,12 @@ module.exports = function(grunt) {
                     src: ['images/**/*'],
                     dest: 'dist/',
                     filter: 'isFile'
-                }]
+                }, {
+					expand: true,
+					src: ['docs/**/*'],
+					dest: 'dist/',
+					filter: 'isFile'
+				}]
             }
         },
 
