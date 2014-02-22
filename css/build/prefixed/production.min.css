@@ -7447,3 +7447,7 @@ a:hover {
 #cc {
   margin-top: -10px;
 }
+
+.row {
+  padding: 10px 0;
+}
